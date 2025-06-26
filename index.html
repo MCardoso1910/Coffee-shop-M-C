@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Café M&C</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- navbar-->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="assests/images/cafe02.png.jpeg" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Sobre nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Cardapio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#local">Local</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Pesquisar..."/>
+        <button class="btn btn-primary" type="submit">buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <main>
+      <!-- carousel-->
+    <header id="carousel-coffee" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1607681034540-2c46cc71896d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Grãos do café">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Os melhores grãos </h5>
+        <p>Trabalhamos com ingredientes selecionados para melhor experiência.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1606598435943-2dff1bd3dd12?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Faixada moderna do coffee shop">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Coffee M&C</h5>
+        <p>A melhor cafeteria do Pais, venha nos conhecer e apreciar nosso cardapío.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=1037&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Produtos da melhor qualidade">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>O COFFEE M&C, O JEITO DE SER DIFERENTE</h5>
+        <p>Trabalhamos com ingredientes selecionados, e tudo feito da melhor qualidade e profisionalismo.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffee" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffee" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</header>
+
+   <!--quote-->
+   <figure>
+  <blockquote class="blockquote">
+    <h3 class="fw-lighter text-center fst-italic mt-5">
+      Café é luz que ilumina até os dias mais nublados..</h3>
+  </blockquote>
+  <figcaption class="blockquote-footer text-center">
+   <cite title="Source Title">Coffe M&C</cite>
+  </figcaption>
+</figure>
+
+<!--about card-->
+<section id="about" class="container mt-5 ">
+  <div class="row">
+    <div class="col-lg-6 col-md-12">
+      <div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://images.unsplash.com/photo-1518057111178-44a106bad636?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Somos o melhor coffee shop do Pais.</h5>
+        <h6 class="card-subtitle text-muted mb-3">Acreditamos que o café possa salvar o seu dia</h6>
+        <p class="card-text"> Somos uma cafeteria que vai muito além do simples ato de tomar um café. A gente nasceu com a missão de resgatar a experiência autêntica do café especial, sem abrir mão da modernidade, do design e da conexão entre pessoas.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-6 col-md-12">
+      <div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://plus.unsplash.com/premium_photo-1669687924859-f04cf02a12c0?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Nossos Coffee attendant</h5>
+        <p class="card-text">No Coffee M&C, o atendimento é parte essencial da experiência. Nossos atendentes não são apenas 'quem serve' — eles são anfitriões. Cada um é treinado para acolher, escutar e recomendar com atenção, como se estivesse recebendo um amigo em casa.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <!--menu-->
+  <section id="menu" class="container mt-5 mb-5">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="Expresso-tab" data-bs-toggle="tab" data-bs-target="#Expresso-tab-pane" type="button" role="tab" aria-controls="Expresso-pane" aria-selected="true">Expresso</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="Capuccino-tab" data-bs-toggle="tab" data-bs-target="#Capuccino-tab-pane" type="button" role="tab" aria-controls="Capuccino-tab-pane" aria-selected="false">Capuccino</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="Gelados-tab" data-bs-toggle="tab" data-bs-target="#Gelados-tab-pane" type="button" role="tab" aria-controls="Gelados-tab-pane" aria-selected="false">Gelados</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="Especiais-tab" data-bs-toggle="tab" data-bs-target="#Especiais-tab-pane" type="button" role="tab" aria-controls="Especiais-tab-pane" aria-selected="false">Especiais</button>
+  </li>
+ 
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="Expresso-tab-pane" role="tabpanel" aria-labelledby="Expresso" tabindex="0">
+   <!--Cards menu-->
+   <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+  <div class="col">
+    <div class="card-menu">
+      <img src="https://plus.unsplash.com/premium_photo-1669687924558-386bff1a0469?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café">
+      <div class="card-body">
+        <h5 class="card-title">Expresso 01</h5>
+        <p class="card-text">R$ 7,90</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card-menu">
+      <img src="https://plus.unsplash.com/premium_photo-1675435644687-562e8042b9db?q=80&w=449&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Expresso 02</h5>
+        <p class="card-text">R$ 8,90</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card-menu">
+      <img src="https://images.unsplash.com/photo-1596952954288-16862d37405b?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Expresso 03</h5>
+        <p class="card-text">R$ 12,90</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card-menu">
+      <img src="https://plus.unsplash.com/premium_photo-1663012978924-5bfd443ac932?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Expresso 04</h5>
+        <p class="card-text">R$ 15,90</p>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card-menu">
+      <img src="https://images.unsplash.com/photo-1694612949165-cbb6397e60b5?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Expresso 05</h5>
+        <p class="card-text">R$ 17,90</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card-menu">
+      <img src="https://images.unsplash.com/photo-1639351067719-84d37482b898?q=80&w=436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Expresso 06</h5>
+        <p class="card-text">R$ 20,90</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+    </div>
+
+  <div class="tab-pane fade" id="Capuccino-tab-pane" role="tabpanel" aria-labelledby="Capuccino-tab" tabindex="0">
+   <!--Cards capuccino-->
+   <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="café">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+    </div>
+
+    <div class="tab-pane fade" id="Gelados-tab-pane" role="tabpanel" aria-labelledby="especiais-tab" tabindex="0">
+    <!--Cards cafe gelados-->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="café">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+      </div>
+          </div>
+
+  <div class="tab-pane fade" id="Especiais-tab-pane" role="tabpanel" aria-labelledby="Especiais-tab" tabindex="0">
+    <!--Cards café especiais-->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="café">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+    </div>
+  
+</div>
+  </section>
+
+  <!--Modal local-->
+ 
+  <section id="local" class="container text-center mb-3">
+       <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#LocalModel">
+  Venha para o coffee M&C !
+</button>
+
+    <div class="modal fade" id="LocalModel" tabindex="-1" aria-labelledby="LocalModelLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="LocalModelLabel">Coffee M&C</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p> Jardim Analia franco - Centro n.1910 <br>
+        São Paulo
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29258.341951817063!2d-46.58242368925146!3d-23.557927304053536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7f936820ea5%3A0xa7a222ee9c2553da!2sJardim%20Analia%20Franco%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1750210634819!5m2!1spt-BR!2sbr" 
+        width=100%
+         height="350" 
+         style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+
+        </iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+  
+  </section>
+  </main>
+
+  <footer class="text-center bg-dark p-5 mt-5 text-light">
+    <img width="50" src="/framework/assests/images/cafe02.png.jpeg" alt="Logotipo do cofee shop">
+    <p class="mt-2 mb-0 fw-bold">
+      Transformando sua vida com um copo de café
+    </p>
+    <p>
+      Contato: (11) 98888-1910
+    </p>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>
